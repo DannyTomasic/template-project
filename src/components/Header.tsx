@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="Logo mr4">LOGO</div>
-      <NavLink exact to="/">Hypo Constellation</NavLink>
-      <NavLink exact to="/lead-report">Lead Report</NavLink>
+      <NavLink exact to="/">Landing Page</NavLink>
+      <NavLink exact to="/lead-report">Maps</NavLink>
       <div className="ml-auto flex align-center">
         <Search />
         <div>
-          adam@netengine.com.au
+          test@netengine.com.au
         </div>
       </div>
     </div>
